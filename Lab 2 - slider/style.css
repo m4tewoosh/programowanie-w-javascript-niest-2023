@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  margin: 100px auto 0 auto;
+}
+
+#slider_up {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+#slider_up button {
+  width: 50px;
+  z-index: 1;
+}
+
+#slider_up #slides {
+  width: 600px;
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
+
+#dots {
+  margin-top: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #95a5a6;
+  cursor: pointer;
+}
+
+.activeDot {
+  background-color: #b4e900;
+}
