@@ -1,0 +1,24 @@
+#drums {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.drum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.drum_active {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.drum audio {
+  display: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script src="./script.js" defer></script>
+  <body>
+    <input id="metronomeInput" type="number" min="0" max="200" value="80" />
+    <button id="playAllRecordsButton">Play all records</button>
+    <button id="metronome">Start metronome</button>
+    <audio src="./assets/sounds/tink.wav" controls id="s0"></audio>
+    <div id="drums">
+      <div id="s1_wrapper">
+        <button class="recordButton">Start recording</button>
+        <button class="playRecordButton">Play record</button>
+        <div class="drum">
+          <p>clap</p>
+          <audio src="./assets/sounds/clap.wav" controls id="s1"></audio>
+        </div>
+      </div>
+      <div id="s2_wrapper">
+        <button class="recordButton">Start recording</button>
+        <button class="playRecordButton">Play record</button>
+        <div class="drum">
+          <p>hat</p>
+          <audio src="./assets/sounds/hihat.wav" controls id="s2"></audio>
+        </div>
+      </div>
+      <div id="s3_ wrapper">
+        <button class="recordButton">Start recording</button>
+        <button class="playRecordButton">Play record</button>
+        <div class="drum">
+          <p>kick</p>
+          <audio src="./assets/sounds/kick.wav" controls id="s3"></audio>
+        </div>
+      </div>
+      <div id="s4_wrapper">
+        <button class="recordButton">Start recording</button>
+        <button class="playRecordButton">Play record</button>
+        <div class="drum">
+          <p>boom</p>
+          <audio src="./assets/sounds/boom.wav" controls id="s4"></audio>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
