@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="./script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <form id="form" action="">
@@ -33,8 +38,10 @@
       </div>
       <button type="submit" id="submitButton">Dodaj notatkę</button>
     </form>
-    <label for="search">Szukaj</label>
-    <input type="text" id="searchBar" name="search" />
+    <div id="searchBarWrapper">
+      <label for="search">Szukaj</label>
+      <input type="text" id="searchBar" name="search" />
+    </div>
     <div id="notes"></div>
   </body>
 </html>
