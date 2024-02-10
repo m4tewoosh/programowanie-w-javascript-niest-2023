@@ -60,14 +60,14 @@ const pauseSlider = () => {
     clearInterval(intervalRef);
     intervalRef = null;
 
-    pauseButton.innerHTML = "resume slider";
+    pauseButton.innerHTML = "Wznów slider";
   }
 };
 
 const resumeSlider = () => {
   if (!intervalRef) {
     intervalRef = setInterval(handleSlideRight, 2000);
-    pauseButton.innerHTML = "pause slider";
+    pauseButton.innerHTML = "Zapauzuj slider";
   }
 };
 

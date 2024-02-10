@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <form id="form" action="">
+      <div>
+        <label for="title">Tytuł</label>
+        <input type="text" id="titleInput" name="title" class="input" />
+      </div>
+      <div>
+        <label for="content">Content</label>
+        <input type="text" id="contentInput" name="content" class="input" />
+      </div>
+      <div>
+        <label for="color">Kolor</label>
+        <select name="color" id="colorInput">
+          <option value="black">Czarny</option>
+          <option value="blue">Niebieski</option>
+          <option value="red">Czerwony</option>
+          <option value="green">Zielony</option>
+          <option value="orange">Pomarańczowy</option>
+        </select>
+      </div>
+      <div>
+        <label for="pin">Pin</label>
+        <input type="checkbox" id="pinInput" name="pin" class="input" />
+      </div>
+      <button type="submit" id="submitButton">Dodaj notatkę</button>
+    </form>
+    <label for="search">Szukaj</label>
+    <input type="text" id="searchBar" name="search" />
+    <div id="notes"></div>
+  </body>
+</html>

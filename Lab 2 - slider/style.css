@@ -25,6 +25,14 @@ body {
   z-index: 1;
 }
 
+#textSlide,
+#videoSlide {
+  min-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #slider_up #slides {
   width: 600px;
   display: flex;

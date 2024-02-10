@@ -33,7 +33,7 @@ const handleAddField = () => {
   const input = document.createElement("input");
   input.type = "number";
   input.className = "input";
-  input.onchange = handleSubmit;
+  input.onkeyup = handleSubmit;
 
   deleteButton.addEventListener("click", () => {
     if (input.value) {
@@ -49,7 +49,7 @@ const handleAddField = () => {
   form.appendChild(wrapper);
 };
 
-Array.from(inputs).forEach((input) => (input.onchange = handleSubmit));
+Array.from(inputs).forEach((input) => (input.onkeyup = handleSubmit));
 
 form.addEventListener("submit", (e) => e.preventDefault());
 submitButton.addEventListener("click", handleSubmit);
