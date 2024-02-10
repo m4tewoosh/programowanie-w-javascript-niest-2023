@@ -1,0 +1,34 @@
+html {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#myCanvas {
+  border: 1px solid black;
+}
+
+#buttons {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons__start,
+#buttons__reset {
+  width: 150px;
+  height: 30px;
+  margin: 12px;
+  font-weight: bold;
+}
